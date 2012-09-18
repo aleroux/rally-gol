@@ -1,0 +1,19 @@
+A small Game of Life implementation in one Java class.
+
+To run the program, pass a starting state on the command line:
+
+java Life 001,010,100
+
+This will run one iteration of the game, and print out the next 
+state in the same format. State strings are in row-major format.  
+Each one or zero is a column going left to right across the board.  
+Rows are separated by commas.  The example above starts the game 
+with the following matrix:
+
+0 0 1
+0 1 0
+1 0 0
+
+This program was written by aleroux who can be reached at 
+andrew.leroux@gmail.com.
+
